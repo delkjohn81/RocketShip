@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4B65D491-0178-45B2-B9E7-3C49A94B2DED}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RocketShipNight</RootNamespace>
+    <AssemblyName>RocketShipNight</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home.html" />
+    <Content Include="Images\explosion0.png" />
+    <Content Include="Images\explosion1.png" />
+    <Content Include="Images\explosion10.png" />
+    <Content Include="Images\explosion11.png" />
+    <Content Include="Images\explosion12.png" />
+    <Content Include="Images\explosion13.png" />
+    <Content Include="Images\explosion14.png" />
+    <Content Include="Images\explosion15.png" />
+    <Content Include="Images\explosion16.png" />
+    <Content Include="Images\explosion17.png" />
+    <Content Include="Images\explosion18.png" />
+    <Content Include="Images\explosion19.png" />
+    <Content Include="Images\explosion2.png" />
+    <Content Include="Images\explosion20.png" />
+    <Content Include="Images\explosion21.png" />
+    <Content Include="Images\explosion22.png" />
+    <Content Include="Images\explosion23.png" />
+    <Content Include="Images\explosion24.png" />
+    <Content Include="Images\explosion25.png" />
+    <Content Include="Images\explosion26.png" />
+    <Content Include="Images\explosion27.png" />
+    <Content Include="Images\explosion28.png" />
+    <Content Include="Images\explosion29.png" />
+    <Content Include="Images\explosion3.png" />
+    <Content Include="Images\explosion30.png" />
+    <Content Include="Images\explosion31.png" />
+    <Content Include="Images\explosion32.png" />
+    <Content Include="Images\explosion4.png" />
+    <Content Include="Images\explosion5.png" />
+    <Content Include="Images\explosion6.png" />
+    <Content Include="Images\explosion7.png" />
+    <Content Include="Images\explosion8.png" />
+    <Content Include="Images\explosion9.png" />
+    <Content Include="Images\gExplosion0.png" />
+    <Content Include="Images\gExplosion1.png" />
+    <Content Include="Images\gExplosion10.png" />
+    <Content Include="Images\gExplosion11.png" />
+    <Content Include="Images\gExplosion12.png" />
+    <Content Include="Images\gExplosion13.png" />
+    <Content Include="Images\gExplosion14.png" />
+    <Content Include="Images\gExplosion2.png" />
+    <Content Include="Images\gExplosion3.png" />
+    <Content Include="Images\gExplosion4.png" />
+    <Content Include="Images\gExplosion5.png" />
+    <Content Include="Images\gExplosion6.png" />
+    <Content Include="Images\gExplosion7.png" />
+    <Content Include="Images\gExplosion8.png" />
+    <Content Include="Images\gExplosion9.png" />
+    <Content Include="Images\planet2.png" />
+    <Content Include="Images\planet3.png" />
+    <Content Include="Images\Rocket0.png" />
+    <Content Include="Images\Rocket1.png" />
+    <Content Include="Images\Rocket2.png" />
+    <Content Include="Images\Rocket3.png" />
+    <Content Include="Images\RocketOn0.png" />
+    <Content Include="Images\RocketOn1.png" />
+    <Content Include="Images\RocketOn2.png" />
+    <Content Include="Images\RocketOn3.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56984/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
